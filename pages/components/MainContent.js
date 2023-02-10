@@ -5,7 +5,7 @@ import TopBarNav from "./TopBarNav";
 
 const MainContent = () => {
 
-    {/* use the headers to calculate which navigation dot should have a selected circle */ }
+    {/* use the headers to calculate which navigation dot should have a selected circle 
     useEffect(() => {
         window.addEventListener('scroll', () => {
             const titles = [...document.querySelectorAll('h1, h2')].sort((a, b) => {
@@ -17,7 +17,7 @@ const MainContent = () => {
             document.querySelectorAll(".nav-dot")[[...document.querySelectorAll('h1, h2')].indexOf(titles[0])].classList.add("selected-circle");
         })
     });
-
+    */ }
     return (
         <>
 
