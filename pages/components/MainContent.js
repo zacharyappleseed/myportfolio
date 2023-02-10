@@ -1,55 +1,21 @@
 import React, { useEffect } from 'react';
 import Form from "./Forms";
 import TopBarNav from "./TopBarNav";
-
+import NavDots from "./NavDots"
 const MainContent = () => {
 
-    {/* use the headers to calculate which navigation dot should have a selected circle 
-    useEffect(() => {
-        window.addEventListener('scroll', () => {
-            const titles = [...document.querySelectorAll('h1, h2')].sort((a, b) => {
-                return Math.abs(a.getBoundingClientRect().top) - Math.abs(b.getBoundingClientRect().top);
-            });
-
-            document.querySelectorAll(".selected-circle").forEach(c => c.classList.remove("selected-circle"));
-
-            document.querySelectorAll(".nav-dot")[[...document.querySelectorAll('h1, h2')].indexOf(titles[0])].classList.add("selected-circle");
-        })
-    });
-    */ }
     return (
         <>
 
 
             <TopBarNav />
-
+            {/*<button onClick={clickHandler}>Hello</button>*/ /* testing console log */}
             <div className="container mt-16 flex justify-between item-center mx-auto px-8 md:px-14 lg:px-24 w-full">
                 <div className="flex flex-wrap md:flex-nowrap">
 
                     {/* navigation circle section begins */}
 
-                    <nav className="inline-block lg:mr-24 lg:w-4 fixed left-percentage hidden xl:block">
-                        <div className="absolute left-50 transform -translate-x-1/2 space-y-6 mt-36">
-                            {/* each circle contains the nav-dot and selected-circle elements */}
-                            <a href="#" className="nav-dot selected-circle block w-7 h-7 rounded-full border-4 border-nav bg-body">
-                                <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Home</span>
-                            </a>
-                            <a href="#arrangments" className="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
-                                <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Arrangements</span>
-                            </a>
-                            <a href="#music" className="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
-                                <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Music</span>
-                            </a>
-                            {/*
-                        <a href="#dev" className="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
-                            <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Dev</span>
-                        </a>
-                        */} {/*for future use, when the github repositories are all ready*/}
-                            <a href="#contact" className="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
-                                <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Contact</span>
-                            </a>
-                        </div>
-                    </nav>
+                    <NavDots />
 
                     {/*hero section begins*/}
 
