@@ -20,11 +20,7 @@ const NavDots = () => {
                     <a href="#music" className="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
                         <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Music</span>
                     </a>
-                    {/*
-                        <a href="#dev" className="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
-                            <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Dev</span>
-                        </a>
-                        */} {/*for future use, when the github repositories are all ready*/}
+
                     <a href="#contact" className="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
                         <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Contact</span>
                     </a>
