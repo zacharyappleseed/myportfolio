@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import 'tailwindcss/tailwind.css'
 import Form from "./Forms";
 import TopBarNav from "./TopBarNav";
 

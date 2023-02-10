@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
-import 'tailwindcss/tailwind.css'
-//import 'tailwindcss'
+
 
 const TopBarNav = () => {
   const [active, setActive] = useState(false);
@@ -12,10 +11,9 @@ const TopBarNav = () => {
 
   return (
     <div className="App">
-      <link rel="stylesheet" href="tailwind.css"></link>
       <header className="py-6">
         <div className="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
-          <div className="font-bold">Zachary !!</div>
+          <div className="font-bold">Zachary Pagliaro</div>
           <div className="hidden md:flex space-x-12 items-center">
             <a href="#" className="text-selected-text">Home</a>
             <a href="#arrangments">Arrangements</a>
