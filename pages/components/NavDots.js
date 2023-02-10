@@ -5,6 +5,24 @@ import Link from 'next/link';
 
 const NavDots = () => {
 
+    const [offset, setOffset] = useState(0);
+
+    const titles = [...document.querySelectorAll('h1, h2')].sort((a, b) => {
+        return Math.abs(a.getBoundingClientRect().top) - Math.abs(b.getBoundingClientRect().top);
+    });
+
+
+    useEffect(() => {
+        const onScroll = () => setOffset(window.pageYOffset);
+        // clean up code
+        window.removeEventListener('scroll', onScroll);
+        window.addEventListener('scroll', onScroll, { passive: true });
+        return () => window.removeEventListener('scroll', onScroll);
+    }, []);
+
+    //console.log(offset);
+    console.log([...document.querySelectorAll('h1, h2')].indexOf(titles[0]));
+
     return (
         <>
             <nav className="inline-block lg:mr-24 lg:w-4 fixed left-percentage hidden xl:block">
