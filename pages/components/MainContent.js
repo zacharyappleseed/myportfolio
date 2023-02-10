@@ -174,7 +174,7 @@ const MainContent = () => {
                 </section>
             </div>
 
-            <main></main>
+
 
         </>
     )
