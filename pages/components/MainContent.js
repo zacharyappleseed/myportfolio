@@ -4,6 +4,7 @@ import Form from "./Forms";
 import TopBarNav from "./TopBarNav";
 
 const MainContent = () => {
+
     {/* use the headers to calculate which navigation dot should have a selected circle */}
     useEffect(() => {
         window.addEventListener('scroll', () => {
