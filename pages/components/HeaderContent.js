@@ -26,7 +26,7 @@ const HeaderContent = () => {
                         </button>
                     </div>
                 </div>
-                <img src="/img/man.png" alt="Guitarist" className="w-3/4 mt-12 md:absolute -mt-6 md:mt-0 right-0 -z-0 md:pt-12" />
+                <img src="/img/man.png" alt="Guitarist" className="w-3/4 mt-12 md:absolute -mt-6 md:mt-0 right-0 -z-0 md:pt-12 xl:max-w-[1300px] xl:pr-64" />
 
             </div>
         </div>
