@@ -7,14 +7,14 @@ const GuitarArr = () => {
 
     return (
         <div className="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
-            <section className="w-full">
+            <section className="w-full grow">
                 <h2 id="arrangments" className="secondary-title">Arrangements</h2>
                 <p className="section-paragraph">I'm currently in the process of writing out the guitar arrangements I've learned over the years. Below you'll find them available for listening or you can download the sheet music through Patreon.</p>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6 flex-auto">
 
                     <div className="">
-                        <div className="w-full h-36 lg:h-72 object-cover">
+                        <div className="w-full h-fit lg:h-72 object-cover">
                             <VideoCard />
                         </div>
 
