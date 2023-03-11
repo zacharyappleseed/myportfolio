@@ -11,7 +11,16 @@ const GuitarArr = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
 
                     <img src="https://img.youtube.com/vi/y_sc_Qibu44/maxresdefault.jpg" className="w-full bg-nav h-36 lg:h-72 object-cover" />
+
                     <img src="https://img.youtube.com/vi/w9aKnh98pis/maxresdefault.jpg" className="w-full bg-nav h-36 lg:h-72 object-cover" />
+                    <div className="">
+                        <a href="https://transactions.sendowl.com/products/78903349/5CA2F8F2/purchase" rel="nofollow">
+                            <button className="px-6 py-2 bg-theme text-white font-bold" type="submit">
+                                Buy
+                            </button>
+                        </a>
+                        <script type="text/javascript" src="https://transactions.sendowl.com/assets/sendowl.js" ></script>
+                    </div>
                     <img src="https://img.youtube.com/vi/YiUi7z8TmR4/maxresdefault.jpg" className="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover" />
                     <img src="https://img.youtube.com/vi/MFUdLLeWNU0/maxresdefault.jpg" className="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover" />
 
