@@ -1,4 +1,7 @@
 import React from 'react';
+import { useTransition, useState, lazy } from "react";
+
+import VideoCard from "./VideoCard"
 
 const GuitarArr = () => {
 
@@ -9,6 +12,16 @@ const GuitarArr = () => {
                 <p className="section-paragraph">I'm currently in the process of writing out the guitar arrangements I've learned over the years. Below you'll find them available for listening or you can download the sheet music through Patreon.</p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+
+                    <div className="">
+                        <div className="w-full h-36 lg:h-72 object-cover">
+                            <VideoCard />
+                        </div>
+
+                        <span className="badge hover:bg-theme">
+                            Vals Op. 8 No. 3
+                        </span>
+                    </div>
                     <div>
                         <img src="https://img.youtube.com/vi/w9aKnh98pis/maxresdefault.jpg" className="w-full bg-nav h-36 lg:h-72 object-cover" />
                         <span className="badge hover:bg-theme">

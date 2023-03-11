@@ -77,3 +77,23 @@ body {
 .nav-dot:hover span {
     opacity: 1;
 }
+
+.player-wrapper {
+    position: relative;
+    padding-top: 56.25%;
+
+    max-width: 500px;
+    padding: 10px;
+
+    /* Player ratio: 100 / (1280 / 720) */
+}
+
+.react-player {
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: relative;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
