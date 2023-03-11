@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link';
 import TopBarNav from "../components/TopBarNav";
-import GuitarArr from "../components/GuitarArr"
+import PurchaseArrangements from "./PurchaseArrangements"
 import MainContent from '../components/MainContent'
 
 
@@ -22,7 +22,7 @@ export default function Home() {
         <TopBarNav />
 
 
-        <GuitarArr />
+        <PurchaseArrangements />
 
       </div>
     </>
