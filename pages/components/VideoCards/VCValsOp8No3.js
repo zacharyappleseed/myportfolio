@@ -1,9 +1,9 @@
 import { useTransition, useState, lazy } from "react";
 import Link from 'next/link';
 
-const Player = lazy(() => import("./Player"));
+const Player = lazy(() => import("../Player"));
 
-const VideoCard = () => {
+const ValsOp8No3VideoCard = () => {
     // useTransition is used to let React know there will be a
     // rerender when the button is pressed.
     const [, startTransition] = useTransition();
@@ -65,4 +65,4 @@ const VideoCard = () => {
     );
 }
 
-export default VideoCard;
+export default ValsOp8No3VideoCard;

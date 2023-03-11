@@ -1,9 +1,9 @@
 import { useTransition, useState, lazy } from "react";
 import Link from 'next/link';
 
-const Player = lazy(() => import("./Player"));
+const Player = lazy(() => import("../Player"));
 
-const VideoCard = () => {
+const NoWomanNoCryVideoCard = () => {
     // useTransition is used to let React know there will be a
     // rerender when the button is pressed.
     const [, startTransition] = useTransition();
@@ -30,8 +30,8 @@ const VideoCard = () => {
                     >
                         <div>
                             <img
-                                alt="Zachary Pagliaro - Vals Op. 8 No. 3 thumbnail"
-                                src="https://img.youtube.com/vi/w9aKnh98pis/maxresdefault.jpg"
+                                alt="Zachary Pagliaro - No Woman No Cry thumbnail"
+                                src="https://img.youtube.com/vi/YiUi7z8TmR4/maxresdefault.jpg"
                                 loading="lazy"
                                 className="w-full bg-nav h-36 lg:h-72 object-cover"
                             />
@@ -41,7 +41,7 @@ const VideoCard = () => {
                 <div>
                     {showVideo && (
                         <Player
-                            videoId="w9aKnh98pis"
+                            videoId="YiUi7z8TmR4"
                             setHasLoaded={setHasLoaded}
                             className="player-wrapper"
                         />
@@ -65,4 +65,4 @@ const VideoCard = () => {
     );
 }
 
-export default VideoCard;
+export default NoWomanNoCryVideoCard;

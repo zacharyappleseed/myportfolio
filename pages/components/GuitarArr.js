@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTransition, useState, lazy } from "react";
 
-import VideoCard from "./VideoCard"
+import ValsOp8No4VideoCard from "./VideoCards/VCValsOp8No3"
 
 const GuitarArr = () => {
 
@@ -15,7 +15,7 @@ const GuitarArr = () => {
 
                     <div className="">
                         <div className="w-full h-fit lg:h-72 object-cover">
-                            <VideoCard />
+                            <ValsOp8No4VideoCard />
                         </div>
 
                         <span className="badge hover:bg-theme">
