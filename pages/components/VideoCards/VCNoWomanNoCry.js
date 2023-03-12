@@ -49,7 +49,7 @@ const NoWomanNoCryVideoCard = () => {
                     )}
                     {showVideo && (
                         <div className="section-paragraph">
-                            Composed by Agustin Barrios Mangore. {" "}
+                            Written by Bob Marley and the Wailers. {" "}
                             <Link href='#' className="hover:underline hover:text-theme">
                                 Download the sheet music or tab.
                             </Link>

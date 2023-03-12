@@ -2,6 +2,9 @@ import React from 'react';
 import { useTransition, useState, lazy } from "react";
 
 import ValsOp8No4VideoCard from "./VideoCards/VCValsOp8No3"
+import ElMarabinoVideoCard from "./VideoCards/VCElMarabino"
+import NoWomanNoCryVideoCard from "./VideoCards/VCNoWomanNoCry"
+import MichelleVideoCard from "./VideoCards/VCMichelle"
 
 const GuitarArr = () => {
 
@@ -22,30 +25,34 @@ const GuitarArr = () => {
                             Vals Op. 8 No. 3
                         </span>
                     </div>
-                    <div>
-                        <img src="https://img.youtube.com/vi/w9aKnh98pis/maxresdefault.jpg" className="w-full bg-nav h-36 lg:h-72 object-cover" />
-                        <span className="badge hover:bg-theme">
-                            Vals Op. 8 No. 3
-                        </span>
-                    </div>
-                    <div>
-                        <img src="https://img.youtube.com/vi/MFUdLLeWNU0/maxresdefault.jpg" className="w-full bg-nav h-36 lg:h-72 object-cover" />
+                    <div className="">
+                        <div className="w-full h-fit lg:h-72 object-cover">
+                            <ElMarabinoVideoCard />
+                        </div>
+
                         <span className="badge hover:bg-theme">
                             El Marabino
                         </span>
                     </div>
-                    <div>
-                        <img src="https://img.youtube.com/vi/YiUi7z8TmR4/maxresdefault.jpg" className="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover" />
+                    <div className="">
+                        <div className="w-full h-fit lg:h-72 object-cover">
+                            <NoWomanNoCryVideoCard />
+                        </div>
+
                         <span className="badge hover:bg-theme">
                             No Woman No Cry
                         </span>
                     </div>
-                    <div>
-                        <img src="https://img.youtube.com/vi/y_sc_Qibu44/maxresdefault.jpg" className="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover" />
+                    <div className="">
+                        <div className="w-full h-fit lg:h-72 object-cover">
+                            <MichelleVideoCard />
+                        </div>
+
                         <span className="badge hover:bg-theme">
                             Michelle
                         </span>
                     </div>
+
                     {/*-- placeholder images 
                     <img src="https://images.unsplash.com/photo-1547119957-637f8679db1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" className="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover" />
                     <img src="https://images.unsplash.com/photo-1559028012-481c04fa702d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1336&q=80" className="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover" />

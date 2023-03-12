@@ -49,7 +49,7 @@ const MichelleVideoCard = () => {
                     )}
                     {showVideo && (
                         <div className="section-paragraph">
-                            Composed by Agustin Barrios Mangore. {" "}
+                            Written by the Beatles. {" "}
                             <Link href='#' className="hover:underline hover:text-theme">
                                 Download the sheet music or tab.
                             </Link>

@@ -30,7 +30,7 @@ const ElMarabinoVideoCard = () => {
                     >
                         <div>
                             <img
-                                alt="Zachary Pagliaro - Vals Op. 8 No. 3 thumbnail"
+                                alt="Zachary Pagliaro - El Marabino thumbnail"
                                 src="https://img.youtube.com/vi/MFUdLLeWNU0/maxresdefault.jpg"
                                 loading="lazy"
                                 className="w-full bg-nav h-36 lg:h-72 object-cover"
@@ -49,7 +49,7 @@ const ElMarabinoVideoCard = () => {
                     )}
                     {showVideo && (
                         <div className="section-paragraph">
-                            Composed by Agustin Barrios Mangore. {" "}
+                            Composed by Antonio Lauro. {" "}
                             <Link href='#' className="hover:underline hover:text-theme">
                                 Download the sheet music or tab.
                             </Link>
