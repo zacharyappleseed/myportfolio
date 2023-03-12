@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link'
 import { useTransition, useState, lazy } from "react";
 
 import ValsOp8No4VideoCard from "./VideoCards/VCValsOp8No3"
@@ -12,8 +13,13 @@ const GuitarArr = () => {
         <div className="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
             <section className="w-full grow">
                 <h2 id="arrangments" className="secondary-title">Arrangements</h2>
-                <p className="section-paragraph">I'm currently in the process of writing out the guitar arrangements I've learned over the years. Below you'll find them available for listening or you can download the sheet music through Patreon.</p>
-
+                <div className="section-paragraph">
+                    I'm currently in the process of writing out the guitar arrangements I've learned over the years. Below you'll find them available for listening or you can download the sheet music. All transcriptions are also available by subscribing through my{" "}
+                    <Link href='#' className="underline hover:text-theme">
+                        Patreon
+                    </Link>
+                    .
+                </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6 flex-auto">
 
                     <div className="">

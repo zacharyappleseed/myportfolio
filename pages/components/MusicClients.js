@@ -14,7 +14,7 @@ const MusicClients = () => {
 
                         {/* Client logo */}
                         <div className="mb-6 lg:mb-0">
-                            <img src="/img/oldsoul.png" className="object-contain h-40 md:h-48 lg:h-80 md:object-scale-down" />
+                            <img src="/img/oldsoul.png" className="object-contain h-48 md:h-48 lg:h-80 md:object-scale-down" />
                         </div>
 
                         {/* -- Client info */}
@@ -37,7 +37,7 @@ const MusicClients = () => {
 
                         {/* Client logo */}
                         <div className="mb-6 lg:mb-0">
-                            <img src="/img/overzealous.png" className="object-contain h-40 md:h-48 lg:h-80 md:object-scale-down" />
+                            <img src="/img/overzealous.png" className="object-contain h-48 md:h-48 lg:h-80 md:object-scale-down" />
                         </div>
 
                         {/* -- Client info */}
@@ -57,7 +57,7 @@ const MusicClients = () => {
 
                         {/* Client logo */}
                         <div className="mb-6 lg:mb-0">
-                            <img src="/img/lushwork.png" className="object-contain h-40 md:h-48 lg:h-80 md:object-scale-down" />
+                            <img src="/img/lushwork.png" className="object-contain h-48 md:h-48 lg:h-80 md:object-scale-down" />
                         </div>
 
                         {/* -- Client info */}
