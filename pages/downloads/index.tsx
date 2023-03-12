@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link';
-import TopBarNav from "../components/TopBarNav";
+import DownloadsTopBarNav from "./DownloadsTopBarNav";
 import PurchaseArrangements from "./PurchaseArrangements"
 import MainContent from '../components/MainContent'
 
@@ -19,7 +19,7 @@ export default function Home() {
 
       </Head>
       <div className="bg-body text-white font-poppins pb-12">
-        <TopBarNav />
+        <DownloadsTopBarNav />
 
 
         <PurchaseArrangements />

@@ -35,10 +35,11 @@ const GuitarArr = () => {
                         <div className="w-full h-fit lg:h-72 object-cover">
                             <ElMarabinoVideoCard />
                         </div>
-
-                        <span className="badge hover:bg-theme">
-                            El Marabino
-                        </span>
+                        <Link href='downloads/#arrangements'>
+                            <span className="badge hover:bg-theme">
+                                El Marabino
+                            </span>
+                        </Link>
                     </div>
                     <div className="">
                         <div className="w-full h-fit lg:h-72 object-cover">
