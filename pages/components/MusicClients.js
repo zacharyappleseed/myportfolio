@@ -18,15 +18,18 @@ const MusicClients = () => {
                         </div>
 
                         {/* -- Client info */}
-                        <div className="flex flex-wrap justify-center text-center lg:text-left lg:block">
-                            <h3 className="text-white text-3xl font-semibold">Nico.wav</h3>
+                        <div className="w-full md:w-1/2 flex flex-wrap justify-center text-center lg:text-left lg:block lg:w-1/2">
+                            <div className="md:pl-5 lg:pt-10 lg:pl-0 xl:pt-0">
+                                <h3 className="text-white text-3xl font-semibold">Nico.wav</h3>
 
-                            <div className="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
-                                <div className="badge">Producer</div>
-                                <div className="badge">Audio Engineer</div>
+                                <p className="text-secondary pt-3">An artist from PG County, MD. </p>
+                                {/*While he's actually a skilled producer and engineer in his own right, I've been privledged to produce several records for the talented rapper. We are continually making new music - stay tuned for the next release!*/}
                             </div>
 
-                            <p className="text-secondary">Nico.wav is an artist from PG County, MD.{/*--Nico.wav is an artist from PG County, MD. While Nico is a skilled producer and engineer in his own right, I've been privledged to produce several records for the talented rapper. We are continually making new music - stay tuned for the next release!*/} </p>
+                            <div className="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
+                                <div className="badge hidden">Producer</div>
+                                <div className="badge hidden">Audio Engineer</div>
+                            </div>
                         </div>
 
                     </div>
@@ -38,14 +41,15 @@ const MusicClients = () => {
                         </div>
 
                         {/* -- Client info */}
-                        <div className="flex flex-wrap justify-center text-center lg:text-left lg:block">
-                            <h3 className="text-white text-3xl font-semibold">Zealxt</h3>
+                        <div className="w-full md:w-1/2 flex flex-wrap justify-center text-center lg:text-left lg:block lg:w-1/2">
+                            <div className="md:pl-5 lg:pt-10 lg:pl-0 xl:pt-0">
+                                <h3 className="text-white text-3xl font-semibold">Zealxt</h3>
 
-                            <div className="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
-                                <div className="badge">Producer</div>
+                                <p className="text-secondary pt-3">A personal music project of my own. {/*A personal music project of my own, Zealxt is a somewhat creative outlet that I use to collect some of my favorite compositions together. Ableton Live is my primary tool for creating these songs.*/} </p>
                             </div>
-
-                            <p className="text-secondary">A personal music project of my own. {/*A personal music project of my own, Zealxt is a somewhat creative outlet that I use to collect some of my favorite compositions together. Ableton Live is my primary tool for creating these songs.*/} </p>
+                            <div className="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
+                                <div className="badge hidden">Producer</div>
+                            </div>
                         </div>
 
                     </div>
@@ -57,16 +61,19 @@ const MusicClients = () => {
                         </div>
 
                         {/* -- Client info */}
-                        <div className="flex flex-wrap justify-center text-center lg:text-left lg:block">
-                            <h3 className="text-white text-3xl font-semibold">Lushwork</h3>
+                        <div className="w-full md:w-1/2 flex flex-wrap justify-center text-center lg:text-left lg:block lg:w-1/2">
 
-                            <div className="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
-                                <div className="badge">Guitarist</div>
-                                <div className="badge">Producer</div>
-                                <div className="badge">Audio Engineer</div>
+                            <div className="md:pl-5 lg:pt-10 lg:pl-0 xl:pt-0">
+                                <h3 className="text-white text-3xl font-semibold break-after-column">Lushwork</h3>
+
+                                <p className="text-secondary pt-3">A 5 piece band from NYC.</p>
                             </div>
 
-                            <p className="text-secondary">Lushwork is a 5 piece band from NYC.</p>
+                            <div className="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
+                                <div className="badge hidden">Guitarist</div>
+                                <div className="badge hidden">Producer</div>
+                                <div className="badge hidden">Audio Engineer</div>
+                            </div>
                         </div>
 
                     </div>
