@@ -14,7 +14,12 @@ const GuitarArr = () => {
             <section className="w-full grow">
                 <h2 id="arrangments" className="secondary-title">Arrangements</h2>
                 <div className="section-paragraph">
-                    I'm currently in the process of writing out the guitar arrangements I've learned over the years. Below you'll find them available for listening or you can download the sheet music. All transcriptions are also available by subscribing through my{" "}
+                    I'm currently in the process of writing out the guitar arrangements I've learned over the years. Below you'll find them available for listening or you can{" "}
+                    <Link href='downloads' className="underline hover:text-theme">
+                        download the sheet music
+                    </Link>
+
+                    . All transcriptions are also available by subscribing through my{" "}
                     <Link href='#' className="underline hover:text-theme">
                         Patreon
                     </Link>
@@ -26,16 +31,17 @@ const GuitarArr = () => {
                         <div className="w-full h-fit lg:h-72 object-cover">
                             <ValsOp8No4VideoCard />
                         </div>
-
-                        <span className="badge hover:bg-theme">
-                            Vals Op. 8 No. 3
-                        </span>
+                        <Link href='downloads/#ValsOp8No3'>
+                            <span className="badge hover:bg-theme">
+                                Vals Op. 8 No. 3
+                            </span>
+                        </Link>
                     </div>
                     <div className="">
                         <div className="w-full h-fit lg:h-72 object-cover">
                             <ElMarabinoVideoCard />
                         </div>
-                        <Link href='downloads/#arrangements'>
+                        <Link href='downloads/#ElMarabino'>
                             <span className="badge hover:bg-theme">
                                 El Marabino
                             </span>
@@ -45,19 +51,21 @@ const GuitarArr = () => {
                         <div className="w-full h-fit lg:h-72 object-cover">
                             <NoWomanNoCryVideoCard />
                         </div>
-
-                        <span className="badge hover:bg-theme">
-                            No Woman No Cry
-                        </span>
+                        <Link href='downloads/#NoWomanNoCry'>
+                            <span className="badge hover:bg-theme">
+                                No Woman No Cry
+                            </span>
+                        </Link>
                     </div>
                     <div className="">
                         <div className="w-full h-fit lg:h-72 object-cover">
                             <MichelleVideoCard />
                         </div>
-
-                        <span className="badge hover:bg-theme">
-                            Michelle
-                        </span>
+                        <Link href='downloads/#Michelle'>
+                            <span className="badge hover:bg-theme">
+                                Michelle
+                            </span>
+                        </Link>
                     </div>
 
                     {/*-- placeholder images 

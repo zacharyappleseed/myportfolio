@@ -1,5 +1,9 @@
 import React from 'react';
+import Link from 'next/link';
 import YoutubeEmbed from "./YoutubeEmbed";
+import IconMusicClefTreble from "./icons/IconMusicClefTreble"
+import IconDocuments from "./icons/IconDocuments"
+
 
 const PurchaseArrangements = () => {
 
@@ -7,24 +11,24 @@ const PurchaseArrangements = () => {
         <div className="container mt-32 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
             <section className="w-full">
                 <h2 id="arrangments" className="secondary-title">All Arrangements</h2>
-                <h3 class="mt-4 text-sm">Download the sheet music and guitar tabs below</h3>
-                <div class="">
+                <h3 className="mt-4 text-sm">Download the sheet music and guitar tabs below</h3>
+                <div className="">
 
-                    <div class="mx-auto max-w-2xl py-16  sm:py-24  lg:max-w-7xl ">
-                        <h2 class="sr-only">Products</h2>
+                    <div className="mx-auto max-w-2xl py-16  sm:py-24  lg:max-w-7xl ">
+                        <h2 className="sr-only">Products</h2>
 
-                        <div class="grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 xl:gap-x-8">
+                        <div className="grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 xl:gap-x-8">
                             <div classname="">
-                                <a href="#ValsOp8No4" class="group">
+                                <Link href="#ValsOp8No4" className="group">
 
-                                    <div class="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg  xl:aspect-w-7 xl:aspect-h-8">
+                                    <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg  xl:aspect-w-7 xl:aspect-h-8">
                                         <img src="https://img.youtube.com/vi/w9aKnh98pis/maxresdefault.jpg" alt="Zachary Pagliaro plays Vals Op. 8 No. 3 Thumbnail" class="h-full w-full object-cover object-center group-hover:opacity-75" />
                                     </div>
 
 
-                                </a>
+                                </Link>
 
-                                <div class="relative grid grid-cols-2 mb-8">
+                                <div className="relative grid grid-cols-2 mb-8">
 
                                     <div className="absolute mt-3">
 
@@ -36,23 +40,25 @@ const PurchaseArrangements = () => {
                                         <script type="text/javascript" src="https://transactions.sendowl.com/assets/sendowl.js" ></script>
                                     </div>
                                     <div className="absolute top-0 right-0 ">
-                                        <h3 className="mt-1 text-sm md:text-lg">Vals Op 8 No 3</h3>
-                                        <p className="absolute right-0 text-lg text-theme">Free</p>
+                                        <Link href="#ValsOp8No4">
+                                            <h3 className="mt-1 text-sm md:text-lg">Vals Op 8 No 3</h3>
+                                            <p className="absolute right-0 text-lg text-theme">Free</p>
+                                        </Link>
                                     </div>
                                 </div>
 
                             </div>
                             <div classname="">
-                                <a href="#ElMarabino" class="group">
+                                <Link href="#ElMarabino" className="group">
 
-                                    <div class="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg  xl:aspect-w-7 xl:aspect-h-8">
+                                    <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg  xl:aspect-w-7 xl:aspect-h-8">
                                         <img src="https://img.youtube.com/vi/MFUdLLeWNU0/maxresdefault.jpg" alt="Zachary Pagliaro plays El Marabino Thumbnail" class="h-full w-full object-cover object-center group-hover:opacity-75" />
                                     </div>
 
 
-                                </a>
+                                </Link>
 
-                                <div class="relative grid grid-cols-2 mb-8">
+                                <div className="relative grid grid-cols-2 mb-8">
 
                                     <div className="absolute mt-3">
 
@@ -64,24 +70,26 @@ const PurchaseArrangements = () => {
                                         <script type="text/javascript" src="https://transactions.sendowl.com/assets/sendowl.js" ></script>
                                     </div>
                                     <div className="absolute top-0 right-0 ">
-                                        <h3 className="mt-1 text-sm md:text-lg">El Marabino</h3>
-                                        <p className="absolute right-0 text-lg text-theme">Free</p>
+                                        <Link href="#ElMarabino" >
+                                            <h3 className="mt-1 text-sm md:text-lg">El Marabino</h3>
+                                            <p className="absolute right-0 text-lg text-theme">Free</p>
+                                        </Link>
                                     </div>
                                 </div>
 
                             </div>
 
-                            <div classname="">
-                                <a href="#NoWomanNoCry" class="group">
+                            <div className="">
+                                <Link href="#NoWomanNoCry" className="group">
 
-                                    <div class="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg  xl:aspect-w-7 xl:aspect-h-8">
+                                    <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg  xl:aspect-w-7 xl:aspect-h-8">
                                         <img src="https://img.youtube.com/vi/YiUi7z8TmR4/maxresdefault.jpg" alt="Zachary Pagliaro plays No Woman No Cry thumbnail" class="h-full w-full object-cover object-center group-hover:opacity-75" />
                                     </div>
 
 
-                                </a>
+                                </Link>
 
-                                <div class="relative grid grid-cols-2 mb-8">
+                                <div className="relative grid grid-cols-2 mb-8">
 
                                     <div className="absolute mt-3">
 
@@ -93,24 +101,26 @@ const PurchaseArrangements = () => {
                                         <script type="text/javascript" src="https://transactions.sendowl.com/assets/sendowl.js" ></script>
                                     </div>
                                     <div className="absolute top-0 right-0">
-                                        <h3 className="mt-1 text-sm md:text-lg">No Woman No Cry</h3>
-                                        <p className="absolute right-0 text-lg">$9.99</p>
+                                        <Link href="#NoWomanNoCry">
+                                            <h3 className="mt-1 text-sm md:text-lg">No Woman No Cry</h3>
+                                            <p className="absolute right-0 text-lg">$9.99</p>
+                                        </Link>
                                     </div>
                                 </div>
 
                             </div>
 
                             <div classname="">
-                                <a href="#Michelle" class="group">
+                                <Link href="#Michelle" className="group">
 
-                                    <div class="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg  xl:aspect-w-7 xl:aspect-h-8">
+                                    <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg  xl:aspect-w-7 xl:aspect-h-8">
                                         <img src="https://img.youtube.com/vi/y_sc_Qibu44/maxresdefault.jpg" alt="Zachary Pagliaro plays Michelle thumbnail" class="h-full w-full object-cover object-center group-hover:opacity-75 hover:border-gray" />
                                     </div>
 
 
-                                </a>
+                                </Link>
 
-                                <div class="relative grid grid-cols-2 mb-8">
+                                <div className="relative grid grid-cols-2 mb-8">
 
                                     <div className="absolute mt-3">
 
@@ -122,8 +132,10 @@ const PurchaseArrangements = () => {
                                         <script type="text/javascript" src="https://transactions.sendowl.com/assets/sendowl.js" ></script>
                                     </div>
                                     <div className="absolute top-0 right-0">
-                                        <h3 className="mt-1 text-sm md:text-lg">Michelle</h3>
-                                        <p className="absolute right-0 text-lg">$9.99</p>
+                                        <Link href="#Michelle" >
+                                            <h3 className="mt-1 text-sm md:text-lg">Michelle</h3>
+                                            <p className="absolute right-0 text-lg">$9.99</p>
+                                        </Link>
                                     </div>
                                 </div>
 
@@ -133,7 +145,7 @@ const PurchaseArrangements = () => {
                     </div>
                 </div>
 
-                {/* BEGIN SONGS */}
+                {/* BEGIN SONGS DETAILS */}
                 <h2 id="ValsOp8No4" className="secondary-title mt-40">Vals Op. 8 No. 4</h2>
 
                 <div className="mb-10">
@@ -159,39 +171,66 @@ const PurchaseArrangements = () => {
                 </div>
                 <h2 id="Michelle" className="secondary-title mt-40">Michelle</h2>
 
-                <div className="mb-10">
+                <div className="mb-5">
                     <p className="section-paragraph">Written by the Beatles.</p>
 
 
                     <YoutubeEmbed embedId="y_sc_Qibu44" />
                 </div>
 
-            </section >
-            {/*
-            <section className="w-full">
-                <h2 id="arrangments" className="secondary-title">Arrangements</h2>
-                <p className="section-paragraph">I'm currently in the process of writing out the guitar arrangements I've learned over the years. Below you'll find them available for listening or you can download the sheet music through Patreon.</p>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+                <div className="container grid grid-flow-row ">
+                    <div className="relative grid grid-cols-2">
+                        <div className="absolute">
 
-                    <img src="https://img.youtube.com/vi/y_sc_Qibu44/maxresdefault.jpg" className="w-full bg-nav h-36 lg:h-72 object-cover" />
-
-                    <img src="https://img.youtube.com/vi/w9aKnh98pis/maxresdefault.jpg" className="w-full bg-nav h-36 lg:h-72 object-cover" />
-                    <div className="">
-                        <a href="https://transactions.sendowl.com/products/78903349/5CA2F8F2/purchase" rel="nofollow">
-                            <button className="px-6 py-2 bg-theme text-white font-bold" type="submit">
-                                Buy
-                            </button>
-                        </a>
-                        <script type="text/javascript" src="https://transactions.sendowl.com/assets/sendowl.js" ></script>
+                            <a href="https://transactions.sendowl.com/products/78903349/5CA2F8F2/purchase" rel="nofollow">
+                                <button className="px-6 py-2 bg-theme text-white font-bold" type="submit">
+                                    Buy
+                                </button>
+                            </a>
+                            <script type="text/javascript" src="https://transactions.sendowl.com/assets/sendowl.js" ></script>
+                        </div>
+                        <div className="absolute top-2 left-24">
+                            <p className="text-secondary">$9.99</p>
+                        </div>
                     </div>
-                    <img src="https://img.youtube.com/vi/YiUi7z8TmR4/maxresdefault.jpg" className="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover" />
-                    <img src="https://img.youtube.com/vi/MFUdLLeWNU0/maxresdefault.jpg" className="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover" />
+                    <div className="container grid">
+                        <div className="mt-14">
+                            <div className="relative scale-80 ">
+                                <div className="absolute">
+                                    <IconDocuments />
+                                </div>
+                                <div className="absolute left-2 top-1">
+                                    <IconMusicClefTreble />
+                                </div>
+                            </div>
 
-                   
+                            <div><p className="text-secondary justify-left mt-2 ml-16">Michelle transcription.pdf</p></div>
+                        </div>
+                    </div>
+
+
                 </div>
-            </section>
-        */}
+
+                <div className="container mt-5 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+
+
+                    <section className="w-full">
+
+                        <div className="w-full grid lg:grid-cols-2 gap-8 lg:gap-32">
+                            <div>
+
+
+
+                            </div>
+
+                            <p>blah blah blah!</p>
+                        </div>
+                    </section>
+                </div>
+            </section >
+
+
         </div >
     )
 }

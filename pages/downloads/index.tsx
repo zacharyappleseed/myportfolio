@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link';
 import DownloadsTopBarNav from "./DownloadsTopBarNav";
 import PurchaseArrangements from "./PurchaseArrangements"
-import MainContent from '../components/MainContent'
+import FooterContent from './FooterContent'
 
 
 
@@ -23,7 +23,7 @@ export default function Home() {
 
 
         <PurchaseArrangements />
-
+        <FooterContent />
       </div>
     </>
   )
