@@ -17,8 +17,8 @@ const PurchaseArrangements = () => {
                     <div className="mx-auto max-w-2xl py-16  sm:py-24  lg:max-w-7xl ">
                         <h2 className="sr-only">Products</h2>
 
-                        <div className="grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 xl:gap-x-8">
-                            <div classname="">
+                        <div className="grid grid-cols-2 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 xl:gap-x-8">
+                            <div className="">
                                 <Link href="#ValsOp8No4" className="group">
 
                                     <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg  xl:aspect-w-7 xl:aspect-h-8">
@@ -48,7 +48,7 @@ const PurchaseArrangements = () => {
                                 </div>
 
                             </div>
-                            <div classname="">
+                            <div className="">
                                 <Link href="#ElMarabino" className="group">
 
                                     <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg  xl:aspect-w-7 xl:aspect-h-8">
@@ -110,7 +110,7 @@ const PurchaseArrangements = () => {
 
                             </div>
 
-                            <div classname="">
+                            <div className="">
                                 <Link href="#Michelle" className="group">
 
                                     <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg  xl:aspect-w-7 xl:aspect-h-8">
@@ -154,21 +154,117 @@ const PurchaseArrangements = () => {
 
                     <YoutubeEmbed embedId="w9aKnh98pis" />
                 </div>
+
+                {/** --------------------------------------------- */}
+
+
                 <h2 id="ElMarabino" className="secondary-title mt-40">El Marabino</h2>
 
                 <div className="mb-10">
-                    <p className="section-paragraph">Written by Antonio Lauro, a brilliant composer that popularized the "Venezualan" waltz for guitar.</p>
+                    <p className="section-paragraph lg:pr-32 xl:pr-32">Written by Antonio Lauro, a brilliant composer that brought the Venezualan style waltz to the rest of the world.</p>
+                    <div className="md:pr-2 lg:pr-32 xl:pr-32">
+                        <YoutubeEmbed embedId="MFUdLLeWNU0" />
+                        <div class="grid grid-cols-8 gap-4">
+                            <div class="col-span-7">
+                                <div class="grid grid-cols-7">
 
-                    <YoutubeEmbed embedId="MFUdLLeWNU0" />
+                                    <div class="col-span-1">
+                                        <div className="">
+
+                                            <a href="https://transactions.sendowl.com/products/78903349/5CA2F8F2/purchase" rel="nofollow">
+                                                <button className="px-6 py-2 bg-theme text-white font-bold" type="submit">
+                                                    Buy
+                                                </button>
+                                            </a>
+                                            <script type="text/javascript" src="https://transactions.sendowl.com/assets/sendowl.js" ></script>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-span-6">
+                                        <div className="grid grid-cols-4">
+
+                                            <div className="flex justify-around">
+                                                <div className="">
+                                                    <div className="relative scale-77 lg:scale-80 xl:scale-83 ">
+                                                        <div className="absolute">
+                                                            <IconDocuments />
+                                                        </div>
+                                                        <div className="absolute left-2 top-1">
+                                                            <IconMusicClefTreble />
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+
+                                            <div className="place-items-center justify-around col-span-3">
+                                                <p className="text-secondary">El Marabino transcription.pdf</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div class="col-span-1">
+                                <div class="relative">
+                                    <div class="absolute right-0">05</div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
+
+
+                {/** --------------------------------------------- */}
+
 
                 <h2 id="NoWomanNoCry" className="secondary-title mt-40">No Woman No Cry</h2>
-                <div className="mb-15">
+                <div className="mb-15 ">
                     <p className="section-paragraph">Written by Bob Marley, as played played by John Mayer.</p>
 
-
-                    <YoutubeEmbed embedId="YiUi7z8TmR4" />
+                    <div className="md:pr-2 lg:px-16">
+                        <YoutubeEmbed embedId="YiUi7z8TmR4" />
+                    </div>
                 </div>
+                <div className="container flex justify-between items-center mx-auto w-full">
+                    <div className="relative grid grid-cols-5 flex flex-auto gap-x-10  sm:grid-cols-5 lg:grid-cols-5 xl:grid-cols-5 w-full">
+                        <div className="mt-4 md:pr-2 lg:px-16 col-span-1">
+
+                            <a href="https://transactions.sendowl.com/products/78903349/5CA2F8F2/purchase" rel="nofollow">
+                                <button className="px-6 py-2 bg-theme text-white font-bold" type="submit">
+                                    Buy
+                                </button>
+                            </a>
+                            <script type="text/javascript" src="https://transactions.sendowl.com/assets/sendowl.js" ></script>
+                        </div>
+                        <div className="col-span-3">
+                            <div className="container grid grid-cols-4">
+                                <div className="col-span-1">
+                                    <div className="relative scale-80 ">
+                                        <div className="absolute">
+                                            <IconDocuments />
+                                        </div>
+                                        <div className="absolute left-2 top-1">
+                                            <IconMusicClefTreble />
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div className="col-span-2"><p className="text-secondary">No Woman No Cry transcription.pdf</p></div>
+                            </div>
+                        </div>
+                        <div className="relative right-0">
+                            <p className="text-secondary">$9.99</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
                 <h2 id="Michelle" className="secondary-title mt-40">Michelle</h2>
 
                 <div className="mb-5">
@@ -179,7 +275,7 @@ const PurchaseArrangements = () => {
                 </div>
 
 
-                <div className="container grid grid-flow-row ">
+                <div className="container grid grid-flow-row">
                     <div className="relative grid grid-cols-2">
                         <div className="absolute">
 
@@ -224,7 +320,7 @@ const PurchaseArrangements = () => {
 
                             </div>
 
-                            <p>blah blah blah!</p>
+                            <p className="text-secondary">This is one of my favorite guitar pieces, taught to me by Lauren Passareli, a professor at Berklee College of Music</p>
                         </div>
                     </section>
                 </div>
