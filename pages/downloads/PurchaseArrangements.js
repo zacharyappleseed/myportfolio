@@ -64,12 +64,14 @@ const PurchaseArrangements = () => {
         }
     );
 
+    const allsongs = [detailsvalsop8no4, detailselmarabino, detailsnowomannocry, detailsmichelle];
+
     return (
         <div className="container mt-16 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
             <section className="w-full">
                 <h2 id="arrangments" className="secondary-title">All Arrangements</h2>
                 <h3 className="mt-4 text-sm">Download the sheet music and guitar tabs below</h3>
-                <AllArrangementsDisplay />
+                <AllArrangementsDisplay songdetailsarray={allsongs} />
 
                 {/* BEGIN SONGS DETAILS */}
 

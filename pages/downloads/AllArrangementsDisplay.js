@@ -1,47 +1,19 @@
 import { React, useState } from 'react';
 import Link from 'next/link';
+import SingleProductDisplay from './SingleProductDisplay';
 
-import MainSongDisplayModule from "./MainSongDisplayModule"
-
-const AllArrangementsDisplay = () => {
+const AllArrangementsDisplay = ({ songdetailsarray }) => {
 
 
     return (
 
         <div className="">
-
             <div className="mx-auto max-w-2xl py-16  sm:py-24  lg:max-w-7xl ">
                 <h2 className="sr-only">Shop</h2>
 
                 <div className="grid grid-cols-2 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 xl:gap-x-8">
                     <div className="">
-                        <Link href="#ValsOp8No4" className="group">
-
-                            <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg  xl:aspect-w-7 xl:aspect-h-8">
-                                <img src="https://img.youtube.com/vi/w9aKnh98pis/maxresdefault.jpg" alt="Zachary Pagliaro plays Vals Op. 8 No. 3 Thumbnail" className="h-full w-full object-cover object-center group-hover:opacity-75" />
-                            </div>
-
-
-                        </Link>
-
-                        <div className="relative grid grid-cols-2 mb-8">
-
-                            <div className="absolute mt-3">
-
-                                <a href="https://transactions.sendowl.com/products/78903349/5CA2F8F2/purchase" rel="nofollow">
-                                    <button className="px-6 py-2 bg-theme text-white font-bold" type="submit">
-                                        Download
-                                    </button>
-                                </a>
-                                <script type="text/javascript" src="https://transactions.sendowl.com/assets/sendowl.js" ></script>
-                            </div>
-                            <div className="absolute top-0 right-0 ">
-                                <Link href="#ValsOp8No4">
-                                    <h3 className="mt-1 text-sm md:text-lg">Vals Op 8 No 3</h3>
-                                    <p className="absolute right-0 text-lg text-theme">Free</p>
-                                </Link>
-                            </div>
-                        </div>
+                        <SingleProductDisplay songdetails={songdetailsarray[0]} />
 
                     </div>
                     <div className="">
