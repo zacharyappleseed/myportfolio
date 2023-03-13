@@ -12,9 +12,9 @@ const FooterContent = () => {
 
           <div className="w-full grid lg:grid-cols-2 gap-8 lg:gap-32">
             <div className="formWrapper">
-              <p className="text-secondary">Thanks for listening!</p>
-              <p className="mt-9 text-secondary">Feel free to email me or {" "}
-                <Link href="/#contact" className="underline hover:text-secondary">
+              <p className="mt-9 text-secondary">Thanks for listening!</p>
+              <p className="text-secondary">Feel free to email me or {" "}
+                <Link href="/#contact" className="underline hover:text-theme">
                   message me through this contact form
                 </Link>
                 , if you have any questions.</p>
@@ -25,8 +25,8 @@ const FooterContent = () => {
         </section>
 
       </div>
-      <div className="grid w-full place-content-center ">
-        <p className="mt-9 mb-15 text-secondary place-content-center">zacharypagliaro.com</p>
+      <div className="grid w-full place-content-center">
+        <p className="mt-9 text-secondary place-content-center">zacharypagliaro.com</p>
       </div>
     </div>
   )
