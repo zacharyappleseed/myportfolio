@@ -149,11 +149,64 @@ const PurchaseArrangements = () => {
                 <h2 id="ValsOp8No4" className="secondary-title mt-40">Vals Op. 8 No. 4</h2>
 
                 <div className="mb-10">
-                    <p className="section-paragraph">A beautiful piece written but the greatest composer for guitar that has ever lived: Agustin Barrios Mangore.</p>
+                    <p className="section-paragraph">A beautiful piece written by the greatest composer for guitar that has ever lived: Agustin Barrios Mangore.</p>
 
 
                     <YoutubeEmbed embedId="w9aKnh98pis" />
                 </div>
+
+                <div className="container grid grid-flow-row">
+                    <div className="relative grid grid-cols-2">
+                        <div className="absolute">
+
+                            <a href="https://transactions.sendowl.com/products/78903349/5CA2F8F2/purchase" rel="nofollow">
+                                <button className="px-6 py-2 bg-theme text-white font-bold" type="submit">
+                                    Buy
+                                </button>
+                            </a>
+                            <script type="text/javascript" src="https://transactions.sendowl.com/assets/sendowl.js" ></script>
+                        </div>
+                        <div className="absolute top-2 left-24">
+                            <p className="text-secondary">$9.99</p>
+                        </div>
+                    </div>
+                    <div className="container grid">
+                        <div className="mt-14">
+                            <div className="relative scale-80 ">
+                                <div className="absolute">
+                                    <IconDocuments />
+                                </div>
+                                <div className="absolute left-2 top-1">
+                                    <IconMusicClefTreble />
+                                </div>
+                            </div>
+
+                            <div><p className="text-secondary justify-left mt-2 ml-16">Michelle transcription.pdf</p></div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div className="container grid grid-flow-row">
+                    <div className="relative grid grid-cols-2">
+
+                        <div className="absolute top-2 left-24">
+                        </div>
+                    </div>
+                    <div className="container grid">
+                        <div className="mt-14">
+                            <div className="relative scale-80 ">
+
+                            </div>
+
+                            <div><p className="text-secondary justify-left sm:mt-2 sm:ml-16">This is one of my favorite guitar pieces, taught to me by Lauren Passareli, a very talented professor at Berklee College of Music. Even though it's very different from the original piece by the Beatles, there's something amazing about how this melody fits on a walking bassline.</p></div>
+                        </div>
+                    </div>
+
+
+                </div>
+
 
                 {/** --------------------------------------------- */}
 
@@ -268,64 +321,69 @@ const PurchaseArrangements = () => {
                 </div>
 
 
+
+
                 <h2 id="Michelle" className="secondary-title mt-40">Michelle</h2>
-
-                <div className="mb-5">
-                    <p className="section-paragraph">Written by the Beatles.</p>
-
-
-                    <YoutubeEmbed embedId="y_sc_Qibu44" />
-                </div>
+                <div className="lg:mr-32 xl:mr-64">
+                    <div className="mb-5">
+                        <p className="section-paragraph ">Written by the Beatles.</p>
 
 
-                <div className="container grid grid-flow-row">
-                    <div className="relative grid grid-cols-2">
-                        <div className="absolute">
-
-                            <a href="https://transactions.sendowl.com/products/78903349/5CA2F8F2/purchase" rel="nofollow">
-                                <button className="px-6 py-2 bg-theme text-white font-bold" type="submit">
-                                    Buy
-                                </button>
-                            </a>
-                            <script type="text/javascript" src="https://transactions.sendowl.com/assets/sendowl.js" ></script>
-                        </div>
-                        <div className="absolute top-2 left-24">
-                            <p className="text-secondary">$9.99</p>
-                        </div>
-                    </div>
-                    <div className="container grid">
-                        <div className="mt-14">
-                            <div className="relative scale-80 ">
-                                <div className="absolute">
-                                    <IconDocuments />
-                                </div>
-                                <div className="absolute left-2 top-1">
-                                    <IconMusicClefTreble />
-                                </div>
-                            </div>
-
-                            <div><p className="text-secondary justify-left mt-2 ml-16">Michelle transcription.pdf</p></div>
-                        </div>
+                        <YoutubeEmbed embedId="y_sc_Qibu44" />
                     </div>
 
 
-                </div>
+                    <div className="container grid grid-flow-row">
+                        <div className="relative grid grid-cols-2">
+                            <div className="absolute">
 
-                <div className="container mt-5 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
-
-
-                    <section className="w-full">
-
-                        <div className="w-full grid lg:grid-cols-2 gap-8 lg:gap-32">
-                            <div>
-
-
-
+                                <a href="https://transactions.sendowl.com/products/78903349/5CA2F8F2/purchase" rel="nofollow">
+                                    <button className="px-6 py-2 bg-theme text-white font-bold" type="submit">
+                                        Buy
+                                    </button>
+                                </a>
+                                <script type="text/javascript" src="https://transactions.sendowl.com/assets/sendowl.js" ></script>
                             </div>
-
-                            <p className="text-secondary">This is one of my favorite guitar pieces, taught to me by Lauren Passareli, a professor at Berklee College of Music</p>
+                            <div className="absolute top-2 left-24">
+                                <p className="text-secondary">$9.99</p>
+                            </div>
                         </div>
-                    </section>
+                        <div className="container grid">
+                            <div className="mt-14">
+                                <div className="relative scale-80 ">
+                                    <div className="absolute">
+                                        <IconDocuments />
+                                    </div>
+                                    <div className="absolute left-2 top-1">
+                                        <IconMusicClefTreble />
+                                    </div>
+                                </div>
+
+                                <div><p className="text-secondary justify-left mt-2 ml-16">Michelle transcription.pdf</p></div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div className="container grid grid-flow-row">
+                        <div className="relative grid grid-cols-2">
+
+                            <div className="absolute top-2 left-24">
+                            </div>
+                        </div>
+                        <div className="container grid">
+                            <div className="mt-14">
+                                <div className="relative scale-80 ">
+
+                                </div>
+
+                                <div><p className="text-secondary justify-left sm:mt-2 sm:ml-16 lg:m-0">This is one of my favorite guitar pieces, taught to me by Lauren Passareli, a very talented professor at Berklee College of Music. Even though it's very different from the original piece by the Beatles, there really is something special about the way this melody fits over a walking bassline.</p></div>
+                            </div>
+                        </div>
+
+
+                    </div>
                 </div>
             </section >
 
