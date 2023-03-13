@@ -22,7 +22,7 @@ const PurchaseArrangements = () => {
                                 <Link href="#ValsOp8No4" className="group">
 
                                     <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg  xl:aspect-w-7 xl:aspect-h-8">
-                                        <img src="https://img.youtube.com/vi/w9aKnh98pis/maxresdefault.jpg" alt="Zachary Pagliaro plays Vals Op. 8 No. 3 Thumbnail" class="h-full w-full object-cover object-center group-hover:opacity-75" />
+                                        <img src="https://img.youtube.com/vi/w9aKnh98pis/maxresdefault.jpg" alt="Zachary Pagliaro plays Vals Op. 8 No. 3 Thumbnail" className="h-full w-full object-cover object-center group-hover:opacity-75" />
                                     </div>
 
 
@@ -52,7 +52,7 @@ const PurchaseArrangements = () => {
                                 <Link href="#ElMarabino" className="group">
 
                                     <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg  xl:aspect-w-7 xl:aspect-h-8">
-                                        <img src="https://img.youtube.com/vi/MFUdLLeWNU0/maxresdefault.jpg" alt="Zachary Pagliaro plays El Marabino Thumbnail" class="h-full w-full object-cover object-center group-hover:opacity-75" />
+                                        <img src="https://img.youtube.com/vi/MFUdLLeWNU0/maxresdefault.jpg" alt="Zachary Pagliaro plays El Marabino Thumbnail" className="h-full w-full object-cover object-center group-hover:opacity-75" />
                                     </div>
 
 
@@ -83,7 +83,7 @@ const PurchaseArrangements = () => {
                                 <Link href="#NoWomanNoCry" className="group">
 
                                     <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg  xl:aspect-w-7 xl:aspect-h-8">
-                                        <img src="https://img.youtube.com/vi/YiUi7z8TmR4/maxresdefault.jpg" alt="Zachary Pagliaro plays No Woman No Cry thumbnail" class="h-full w-full object-cover object-center group-hover:opacity-75" />
+                                        <img src="https://img.youtube.com/vi/YiUi7z8TmR4/maxresdefault.jpg" alt="Zachary Pagliaro plays No Woman No Cry thumbnail" className="h-full w-full object-cover object-center group-hover:opacity-75" />
                                     </div>
 
 
@@ -114,7 +114,7 @@ const PurchaseArrangements = () => {
                                 <Link href="#Michelle" className="group">
 
                                     <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg  xl:aspect-w-7 xl:aspect-h-8">
-                                        <img src="https://img.youtube.com/vi/y_sc_Qibu44/maxresdefault.jpg" alt="Zachary Pagliaro plays Michelle thumbnail" class="h-full w-full object-cover object-center group-hover:opacity-75 hover:border-gray" />
+                                        <img src="https://img.youtube.com/vi/y_sc_Qibu44/maxresdefault.jpg" alt="Zachary Pagliaro plays Michelle thumbnail" className="h-full w-full object-cover object-center group-hover:opacity-75 hover:border-gray" />
                                     </div>
 
 
@@ -162,14 +162,14 @@ const PurchaseArrangements = () => {
 
                 <div className="mb-10">
                     <p className="section-paragraph lg:pr-32 xl:pr-32">Written by Antonio Lauro, a brilliant composer that brought the Venezualan style waltz to the rest of the world.</p>
-                    <div className="md:pr-2 lg:pr-32 xl:pr-32">
-                        <YoutubeEmbed embedId="MFUdLLeWNU0" />
-                        <div class="grid grid-cols-8 gap-4">
-                            <div class="col-span-7">
-                                <div class="grid grid-cols-7">
+                    <div className="md:pr-2 lg:pr-32 xl:pr-64">
+                        <YoutubeEmbed embedId="MFUdLLeWNU0" className="mb-10" />
+                        <div className="grid grid-cols-8 gap-4 mt-3">
+                            <div className="col-span-7">
+                                <div className="grid grid-cols-7">
 
-                                    <div class="col-span-1">
-                                        <div className="">
+                                    <div className="col-span-1">
+                                        <div className="mt-2">
 
                                             <a href="https://transactions.sendowl.com/products/78903349/5CA2F8F2/purchase" rel="nofollow">
                                                 <button className="px-6 py-2 bg-theme text-white font-bold" type="submit">
@@ -181,11 +181,11 @@ const PurchaseArrangements = () => {
                                     </div>
 
                                     <div className="col-span-6">
-                                        <div className="grid grid-cols-4">
+                                        <div className="grid grid-cols-4 top-20">
 
-                                            <div className="flex justify-around">
+                                            <div className="flex justify-around mt-2 md:mr-3 lg:mr-0">
                                                 <div className="">
-                                                    <div className="relative scale-77 lg:scale-80 xl:scale-83 ">
+                                                    <div className="relative scale-[0.83] lg:scale-[0.85] xl:scale-[0.9] ">
                                                         <div className="absolute">
                                                             <IconDocuments />
                                                         </div>
@@ -198,7 +198,7 @@ const PurchaseArrangements = () => {
                                                 </div>
                                             </div>
 
-                                            <div className="place-items-center justify-around col-span-3">
+                                            <div className="place-items-center justify-around col-span-3 mt-3">
                                                 <p className="text-secondary">El Marabino transcription.pdf</p>
                                             </div>
                                         </div>
@@ -207,9 +207,12 @@ const PurchaseArrangements = () => {
 
                                 </div>
                             </div>
-                            <div class="col-span-1">
-                                <div class="relative">
-                                    <div class="absolute right-0">05</div>
+                            <div className="col-span-1">
+                                <div className="relative">
+                                    <div className="absolute right-0 top-3">
+                                        <p className="text-white">$9.99</p>
+
+                                    </div>
                                 </div>
 
                             </div>
