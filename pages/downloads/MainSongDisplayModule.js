@@ -23,8 +23,8 @@ const MainSongDisplayModule = ({ songdetails }) => {
 
 
                 <div className="container group">
-                    <div className="grid grid-cols-3">
-                        <div className="col-span-1">
+                    <div className="flex w-3/4 space-x-4">
+                        <div className="flex-none">
 
                             <a href={songdetails.sendowlurl} rel="nofollow">
                                 <button className="px-6 py-2 bg-theme text-white font-bold" type="submit">
@@ -33,12 +33,15 @@ const MainSongDisplayModule = ({ songdetails }) => {
                             </a>
                             <script type="text/javascript" src="https://transactions.sendowl.com/assets/sendowl.js" ></script>
                         </div>
-                        <div className="top-2 col-span-1">
+                        <div className="top-2 flex-none">
                             <p className="group-hover:text-white text-secondary mt-2">{songdetails.price}</p>
+                        </div>
+                        <div className="grow">
+
                         </div>
                     </div>
                     <div className="container grid">
-                        <div className="mt-5">
+                        <div className="mt-3">
                             <div className="relative scale-80">
                                 <div className="absolute">
                                     <IconDocuments className="" />
