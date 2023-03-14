@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const MusicClients = () => {
 
     const [showMore, setShowMore] = useState(false);
-    const { moreText } = "hello! blah blah blah blah blah";
+    const nicoText = "While he's actually a skilled producer and engineer in his own right, I've been privledged to produce several records for the talented rapper. We are continually making new music - stay tuned for the next release!";
     return (
         < div className="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full" >
             <section className="w-full">
@@ -28,14 +28,15 @@ const MusicClients = () => {
                                 {/*While he's actually a skilled producer and engineer in his own right, I've been privledged to produce several records for the talented rapper. We are continually making new music - stay tuned for the next release!*/}
                             </div>
 
-                            {showMore ? "A" : "B"}
-                            <button className="badge" onClick={() => setShowMore(!showMore)}>
-                                {showMore ? "Show less" : "Show more"}
-                            </button>
-
                             <div className="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
-                                <div className="badge hidden">Producer</div>
-                                <div className="badge hidden">Audio Engineer</div>
+                                <div>
+                                    {showMore ? nicoText : ""}
+                                    <button className="badge" onClick={() => setShowMore(!showMore)}>
+                                        {showMore ? "Show less" : "Show more"}
+                                    </button>
+                                </div>
+                                <div className="badge ">Producer</div>
+                                <div className="badge ">Audio Engineer</div>
                             </div>
                         </div>
 
