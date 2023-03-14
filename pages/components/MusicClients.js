@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import SoundcloudPlayer from './SoundcloudPlayer';
+import ClientNicoCard from './ClientCards/ClientNicoCard';
 
 const MusicClients = () => {
 
@@ -19,6 +19,9 @@ const MusicClients = () => {
 
                 {/*-- Clients */}
                 <div >
+                    <ClientNicoCard />
+
+
                     <div className="space-y-12 my-16">
                         <div className="w-full border border-nav">
                             <div className="w-full p-16 lg:px-32 lg:pt-20 lg:space-x-24 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
@@ -100,6 +103,7 @@ const MusicClients = () => {
                         </div>
 
                     </div>
+
                     <div className="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
 
                         {/* Client logo */}
