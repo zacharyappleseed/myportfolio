@@ -5,35 +5,6 @@ import MainSongDisplayModule from "./MainSongDisplayModule"
 
 const PurchaseArrangements = () => {
 
-    const [detailsmichelle] = useState(
-        {
-            name: "Michelle",
-            subtitle: "Written by the Beatles.",
-            price: "$8",
-            free: false,
-            sendowlurl: "https://transactions.sendowl.com/products/78903349/5CA2F8F2/purchase",
-            youtubeid: "YiUi7z8TmR4",
-            filename: "Michelle transcription.pdf",
-            htmlid: "Michelle",
-            blurb: "This is one of my favorite guitar pieces, taught to me by Lauren Passareli, a talented professor at Berklee College of Music. Even though it's very different from the original piece by the Beatles, there really is something special about the way this melody fits over a walking bass line.",
-        }
-    );
-
-    const [detailsnowomannocry] = useState(
-        {
-            name: "No Woman No Cry",
-            subtitle: "Written by Bob Marley.",
-            price: "$8",
-            free: false,
-            sendowlurl: "https://transactions.sendowl.com/products/78903349/5CA2F8F2/purchase",
-            youtubeid: "YiUi7z8TmR4",
-            downloadlink: "",
-            filename: "No Woman No Cry transcription.pdf",
-            htmlid: "NoWomanNoCry",
-            blurb: "An interesting arrangement played by John Mayer. It's been floating around the internet for years so I'm happy to finally have it written down.",
-        }
-    );
-
     const [detailsvalsop8no4] = useState(
         {
             name: "Vals Op. 8 No. 3",
@@ -45,7 +16,7 @@ const PurchaseArrangements = () => {
             downloadlink: "",
             filename: "Vals Op 8 No 3 transcription.pdf",
             htmlid: "ValsOp8No3",
-            blurb: "This is one of two of my favorite pieces from Barrios, the other being his fourth piece from the Opus 8 work.",
+            blurb: "One of two of my favorite pieces from Barrios! The other being his 4th piece from the Opus 8 work. I recorded this song years ago and it was one of my first videos.",
         }
     );
 
@@ -63,6 +34,39 @@ const PurchaseArrangements = () => {
             blurb: "A short, happy piece of music that has some interesting melodic ideas, and some complex harmonies going on.",
         }
     );
+
+    const [detailsnowomannocry] = useState(
+        {
+            name: "No Woman No Cry",
+            subtitle: "Written by Bob Marley.",
+            price: "$8",
+            free: false,
+            sendowlurl: "https://transactions.sendowl.com/products/78903349/5CA2F8F2/purchase",
+            youtubeid: "y_sc_Qibu44",
+            downloadlink: "",
+            filename: "No Woman No Cry transcription.pdf",
+            htmlid: "NoWomanNoCry",
+            blurb: "An interesting arrangement played by John Mayer. It's been floating around the internet for years so I'm happy to finally have it written down.",
+        }
+    );
+
+    const [detailsmichelle] = useState(
+        {
+            name: "Michelle",
+            subtitle: "Written by the Beatles.",
+            price: "$8",
+            free: false,
+            sendowlurl: "https://transactions.sendowl.com/products/78903349/5CA2F8F2/purchase",
+            youtubeid: "YiUi7z8TmR4",
+            filename: "Michelle transcription.pdf",
+            htmlid: "Michelle",
+            blurb: "This is one of my favorite guitar pieces, taught to me by Lauren Passareli, a talented professor at Berklee College of Music. Even though it's very different from the original piece by the Beatles, there really is something special about the way this melody fits over a walking bass line.",
+        }
+    );
+
+
+
+
 
     const allsongs = [detailsvalsop8no4, detailselmarabino, detailsnowomannocry, detailsmichelle];
 
