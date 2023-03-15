@@ -8,7 +8,7 @@ const ClientNicoCard = () => {
     const showMoreTextStyle = "badge text-white mt-10"
     const showLessTextStyle = "badge text-secondary mt-10"
     const showMoreSoundcloud = "hidden"
-    const showLessSoundcloud = "w-full px-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap"
+    const showLessSoundcloud = "w-full px-16 lg:px-32 py-3 lg:py-10 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap"
     const hidden = "hidden"
     const display = ""
     return (
@@ -31,11 +31,11 @@ const ClientNicoCard = () => {
                                 <p className="text-secondary pt-3">An artist from PG County, MD. </p>
                             </div>
 
-                            <div className="w-full lg:w-auto flex flex-wrap justify-center text-center lg:text-left gap-3">
-                                <div className="lg:pt-10 lg:pl-0 xl:pt-0 text-secondary">
+                            <div className="w-full lg:w-auto flex flex-wrap justify-center text-left lg:text-left gap-3">
+                                <p className="sm pl-3 lg:pt-10 lg:pl-0 xl:pt-0 text-secondary">
                                     {showMore ? nicoText : ""}
 
-                                </div>
+                                </p>
                                 <div className="lg:pl-0 xl:pt-0 text-secondary">
                                     <button className={showMore ? showLessTextStyle : showMoreTextStyle} onClick={() => setShowMore(!showMore)}>
                                         {showMore ? "Show less" : "Show more"}
@@ -44,26 +44,26 @@ const ClientNicoCard = () => {
                             </div>
                         </div>
                     </div>
+                    <div className={showMore ? display : hidden}>
+                        <div className="w-full px-16 lg:px-32 lg:pt-20 lg:space-x-24 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
+                            <div className="mb-6 lg:mb-0 mt-6">
+                                <div className="text-xl font-bold">
+                                    <p>Old Soul</p>
+                                </div>
+                            </div>
 
-                    <div className="w-full px-16 lg:px-32 lg:pt-20 lg:space-x-24 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
-                        <div className="mb-6 lg:mb-0">
-                            <div className="text-xl font-bold">
-                                <p>Old Soul</p>
+                            <div className="w-full lg:w-auto flex flex-wrap justify-center text-center lg:text-left gap-3 mb-5">
+                                <div className="badge">Producer</div>
+                                <div className="badge">Audio Engineer</div>
+
                             </div>
                         </div>
-
-                        <div className="w-full lg:w-auto flex flex-wrap justify-center text-center lg:text-left gap-3 mb-5">
-                            <div className="badge">Producer</div>
-                            <div className="badge">Audio Engineer</div>
-
-                        </div>
                     </div>
-
                     <div className={showMore ? display : hidden}>
                         <div className="w-full md:w-full flex flex-wrap justify-center text-left lg:text-left lg:block lg:w-full">
                             <div className="px-16 lg:px-32">
                                 <div className="text-secondary">
-                                    <p>An album that I had the pleasure of producing, from composing the music to engineering the vocals. Our first project together, it's our attempt at making a timeless classic, just something we will always want to listen to. We hope you enjoy it for years to come.</p>
+                                    <p>An album that I had the pleasure of producing, from composing the music to engineering the vocals. Our first project together, an attempt at making something timeless, and that we'll always want to listen to. We hope you enjoy putting it on.</p>
                                 </div>
                             </div></div>
 
